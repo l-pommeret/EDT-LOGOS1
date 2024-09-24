@@ -1,0 +1,143 @@
+{
+    "masters": [
+      {
+        "name": "M1 MFA",
+        "code": "55514",
+        "courses": [
+          {
+            "name": "Logique CM01",
+            "displayName": "CM Logique",
+            "color": "#FF0000",
+            "groupId": "logique"
+          },
+          {
+            "name": "Logique TD01",
+            "displayName": "TD Logique",
+            "color": "#FF0000",
+            "groupId": "logique"
+          },
+          {
+            "name": "Algorithmique CM01",
+            "displayName": "CM Algorithmique",
+            "color": "#00FF00",
+            "groupId": "algo"
+          },
+          {
+            "name": "Algorithmique TP01",
+            "displayName": "TP Algorithmique",
+            "color": "#00FF00",
+            "groupId": "algo"
+          },
+          {
+            "name": "Complexite CM01",
+            "displayName": "CM Complexité",
+            "color": "#0000FF",
+            "groupId": "algocomp"
+          },
+          {
+            "name": "Complexite TD01",
+            "displayName": "TD Complexité",
+            "color": "#0000FF",
+            "groupId": "algocomp"
+          }
+        ]
+      },
+      {
+        "name": "M1 MIC",
+        "code": "59387",
+        "courses": [
+          {
+            "name": "Theorie de l'information CM01",
+            "displayName": "CM Theorie de l'information",
+            "color": "#FFFF00",
+            "groupId": "thinf"
+          },
+          {
+            "name": "Theorie de l'information TD01",
+            "displayName": "TD Theorie de l'information",
+            "color": "#FFFF00",
+            "groupId": "thinf"
+          }
+        ]
+      }
+    ],
+    "constant_events": [
+      {
+        "type": "one-time",
+        "summary": "Réunion de rentrée du LOGOS",
+        "date": "2024-09-24",
+        "time": "12:30",
+        "duration": 60,
+        "room": "Salle 126 - Olympes de Gouges",
+        "enabled": true,
+        "color": "#FF00FF",
+        "groupId": "reunion_logos"
+      },
+      {
+        "type": "weekly",
+        "summary": "CM Introduction à la philosophie des sciences",
+        "day": "Lundi",
+        "time": "09:00",
+        "duration": 180,
+        "room": "Salle 265E - Halle aux farines",
+        "enabled": true,
+        "color": "#00FFFF",
+        "groupId": "philo"
+      },
+      {
+        "type": "weekly",
+        "summary": "TD Introduction à la philosophie des sciences",
+        "day": "Lundi",
+        "time": "16:30",
+        "duration": 120,
+        "room": "Salle 134 - Olympe de Gouges",
+        "enabled": true,
+        "color": "#00FFFF",
+        "groupId": "philo"
+      },
+      {
+        "type": "weekly",
+        "summary": "Theoretical syntax",
+        "day": "Lundi",
+        "time": "09:00",
+        "duration": 150,
+        "room": "Salle 165 - Olympes de Gouges",
+        "enabled": false,
+        "color": "#FFA500",
+        "groupId": "thsyn"
+      },
+      {
+        "type": "weekly",
+        "summary": "Introduction à la syntaxe",
+        "day": "Mardi",
+        "time": "08:30",
+        "duration": 150,
+        "room": "Salle 165 - Olympes de Gouges",
+        "enabled": false,
+        "color": "#800080",
+        "groupId": "syn"
+      },
+      {
+        "type": "weekly",
+        "summary": "Semantic analysis",
+        "day": "Mercredi",
+        "time": "09:30",
+        "duration": 150,
+        "room": "Salle 165 - Olympes de Gouges",
+        "enabled": false,
+        "color": "#008000",
+        "groupId": "sem"
+      },
+      {
+        "type": "weekly",
+        "summary": "Language and its interfaces",
+        "day": "Mercredi",
+        "time": "13:00",
+        "duration": 120,
+        "room": "Olympes de Gouges",
+        "enabled": false,
+        "color": "#800000",
+        "groupId": "lan"
+      }
+    ]
+  }
